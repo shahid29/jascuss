@@ -1,0 +1,102 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: skyblue;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background:white; 
+
+}
+#content{
+	width: 750px;
+height: 600px;
+background: white;
+float: right;
+}
+
+#head{
+	margin: auto;
+	width: 1000px;
+	height: 120px;
+	border-bottom: 4px solid brown;
+
+}
+#sidebar{
+	width: 250px;
+	height: 600px;
+	background: gray;
+	float: left;
+}
+#sidebar h2{
+	text-decoration: underline;
+	margin-left: 15px;
+	color: orange;
+}
+
+#menu{
+	line-height: 30px;
+	padding: 0;
+}
+
+#menu li{
+	list-style: none;
+	display: block;
+	margin-left: 20px;
+}
+
+#menu a{
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	text-decoration: none;
+	padding: 20px;
+	margin-left: 20px;
+}
+#menu a:hover{
+	color: orange;
+	font-weight: boler;
+	text-decoration: underline;
+	
+}
+#ct_form input{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+#ct_form textarea{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+#ct_form select{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+#ct_form select:hover{
+	background-color: #FFF8DC;
+}
+#ct_form input:hover{
+	background-color: #FFF8DC;
+}
+#ct_form textarea:hover{
+	background-color: #FFF8DC;
+}
+#ct_form h2{
+	color: gray;
+	font-family: sans-serif;
+}
+#footer{
+	width: 1000px;
+	height: 50px;
+	background: black;
+	clear: both;
+}
+
